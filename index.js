@@ -1,0 +1,16 @@
+// import { getPosts, getPostsLength } from "./postController.js";
+import getPosts, { getPostsLength } from "./postController.js";
+
+console.log(getPosts());
+console.log(`Posts Length: ${getPostsLength()}`);
+
+// const { generateRandomNumber, celciusToFahrenheit } = require("./utils");
+
+// console.log(`Random Number: ${generateRandomNumber()}`);
+// console.log(`Celcius to fahrenheit: ${celciusToFahrenheit(0)}`);
+
+// Not works
+// console.log(window);
+// console.log(document);
+
+// console.log("Hello World");

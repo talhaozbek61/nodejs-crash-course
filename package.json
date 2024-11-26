@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-crash",
+  "version": "1.0.0",
+  "description": "node.js crash course code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "s": "nodemon --env-file=.env server.js",
+    "s2": "nodemon --env-file=.env server2.js"
+  },
+  "author": "Talha ÖZBEK",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
